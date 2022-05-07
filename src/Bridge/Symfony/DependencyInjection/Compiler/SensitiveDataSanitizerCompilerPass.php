@@ -13,7 +13,7 @@ use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\DependencyInjection\Definition;
 use Symfony\Component\DependencyInjection\Reference;
 
-final class SensitiveDataCompilerPass implements CompilerPassInterface
+final class SensitiveDataSanitizerCompilerPass implements CompilerPassInterface
 {
     /**
      * @var string
