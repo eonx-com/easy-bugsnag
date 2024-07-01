@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace EonX\EasyBugsnag\Tests\Stub\HttpKernel;
+namespace EonX\EasyBugsnag\Tests\Stub\Kernel;
 
 use EonX\EasyBugsnag\Bundle\EasyBugsnagBundle;
 use EonX\EasyUtils\Bundle\EasyUtilsBundle;
