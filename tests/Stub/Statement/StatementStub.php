@@ -1,10 +1,11 @@
 <?php
 declare(strict_types=1);
 
-namespace EonX\EasyBugsnag\Tests\Stub\Driver;
+namespace EonX\EasyBugsnag\Tests\Stub\Statement;
 
 use Doctrine\DBAL\Driver\Result;
 use Doctrine\DBAL\Driver\Statement;
+use EonX\EasyBugsnag\Tests\Stub\Result\ResultStub;
 
 final class StatementStub implements Statement
 {

@@ -6,7 +6,7 @@ namespace EonX\EasyBugsnag\Laravel\Trackers;
 use EonX\EasyBugsnag\Tracker\SessionTracker;
 use Illuminate\Http\Request;
 
-trait TracksSessionTrait
+trait SessionTrackerTrait
 {
     public function __construct(
         private SessionTracker $sessionTracker,

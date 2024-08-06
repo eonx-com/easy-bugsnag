@@ -1,11 +1,13 @@
 <?php
 declare(strict_types=1);
 
-namespace EonX\EasyBugsnag\Tests\Stub\Driver;
+namespace EonX\EasyBugsnag\Tests\Stub\Connection;
 
 use Doctrine\DBAL\Driver\Connection;
 use Doctrine\DBAL\Driver\Result;
 use Doctrine\DBAL\Driver\Statement;
+use EonX\EasyBugsnag\Tests\Stub\Result\ResultStub;
+use EonX\EasyBugsnag\Tests\Stub\Statement\StatementStub;
 
 final class ConnectionStub implements Connection
 {
